@@ -41,6 +41,8 @@ public class VulnerableTaskHolder implements Serializable {
    *
    * @author stupid develop
    */
+
+//  Este es un cambio
   private void readObject(ObjectInputStream stream) throws Exception {
     // unserialize data so taskName and taskAction are available
     stream.defaultReadObject();
